@@ -20,11 +20,8 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Softwarica Collage</h3>
-            <h4 className="vertical-timeline-element-subtitle">Bachlors</h4>
-            <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
-            </p>
+            <p className="vertical-timeline-element-title">Softwarica College | Coventry University</p>
+            <h4 className="vertical-timeline-element-subtitle">Bachelor of Science Hons in Computing </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -32,8 +29,8 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Rehdon Collage</h3>
-            <h4 className="vertical-timeline-element-subtitle">HighSchool</h4>
+            <p className="vertical-timeline-element-title">Rehdon Collage</p>
+            <h4 className="vertical-timeline-element-subtitle">HighSchool (Management) </h4>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
