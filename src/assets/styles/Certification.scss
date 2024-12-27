@@ -1,0 +1,64 @@
+.certifications-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    text-align: left;
+}
+
+.certifications-container h1 {
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+}
+
+.certifications-container .certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+}
+
+.certifications-container .certifications-grid .certification-card {
+    
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    text-align: left;
+}
+
+.certifications-container .certifications-grid .certification-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.certification-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  
+    transition: color 0.15s ease-in-out;
+}
+
+.certification-card h2:hover {
+    text-decoration: underline;
+   
+}
+
+.certification-card p {
+    margin: 0.5rem 0 0;
+    color: #b5b5b5;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 700px) {
+    .certifications-container {
+        padding: 5%;
+    }
+
+    .certifications-container .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .certifications-container .certifications-grid .certification-card {
+        margin-bottom: 1.5rem;
+    }
+}
